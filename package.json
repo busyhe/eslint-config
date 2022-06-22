@@ -1,0 +1,64 @@
+{
+    "name": "@busyhe/eslint-config-preset",
+    "description": "JavaScript Style - ESLint Shareable Config",
+    "author": "busyhe <busyhe@qq.com>",
+    "version": "0.0.1",
+    "scripts": {
+        "lint": "eslint .",
+        "test": "jest",
+        "postinstall": "husky install",
+        "prepack": "pinst --disable",
+        "postpack": "pinst --enable"
+    },
+    "main": "index.js",
+    "private": false,
+    "keywords": [
+        "busyhe",
+        "eslint",
+        "eslintconfig",
+        "lint",
+        "style",
+        "code style"
+    ],
+    "devDependencies": {
+        "@semantic-release/changelog": "^6.0.1",
+        "@semantic-release/git": "^10.0.1",
+        "commitizen": "^4.2.4",
+        "cz-conventional-changelog": "^3.3.0",
+        "eslint": "^8.18.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-n": "^15.2.3",
+        "eslint-plugin-promise": "^6.0.0",
+        "husky": "^8.0.1",
+        "jest": "^28.1.1",
+        "lint-staged": "^13.0.2",
+        "pinst": "^3.0.0",
+        "semantic-release": "^19.0.3"
+    },
+    "peerDependencies": {
+        "eslint": "^8.18.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-n": "^15.2.3",
+        "eslint-plugin-promise": "^6.0.0"
+    },
+    "homepage": "https://github.com/busyhe/eslint-config-preset",
+    "bugs": {
+        "url": "https://github.com/busyhe/eslint-config-preset/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:busyhe/eslint-config-preset.git"
+    },
+    "config": {
+        "commitizen": {
+            "path": "cz-conventional-changelog"
+        }
+    },
+    "lint-staged": {
+        "*.{js,jsx,ts,tsx,vue}": "eslint --fix"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "license": "MIT"
+}
