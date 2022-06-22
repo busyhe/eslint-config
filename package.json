@@ -13,6 +13,10 @@
     },
     "main": "src/index.js",
     "private": false,
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
+    },
     "keywords": [
         "busyhe",
         "eslint",
