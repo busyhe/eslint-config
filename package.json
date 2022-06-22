@@ -1,5 +1,5 @@
 {
-    "name": "@busyhe/eslint-config-preset",
+    "name": "@busyhe/eslint-config",
     "description": "JavaScript Style - ESLint Shareable Config",
     "author": "busyhe <busyhe@qq.com>",
     "version": "0.0.1",
@@ -30,7 +30,6 @@
         "eslint-plugin-n": "^15.2.3",
         "eslint-plugin-promise": "^6.0.0",
         "husky": "^8.0.1",
-        "jest": "^28.1.1",
         "lint-staged": "^13.0.2",
         "pinst": "^3.0.0",
         "semantic-release": "^19.0.3"
@@ -41,13 +40,13 @@
         "eslint-plugin-n": "^15.2.3",
         "eslint-plugin-promise": "^6.0.0"
     },
-    "homepage": "https://github.com/busyhe/eslint-config-preset",
+    "homepage": "https://github.com/busyhe/eslint-config",
     "bugs": {
-        "url": "https://github.com/busyhe/eslint-config-preset/issues"
+        "url": "https://github.com/busyhe/eslint-config/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:busyhe/eslint-config-preset.git"
+        "url": "git@github.com:busyhe/eslint-config.git"
     },
     "config": {
         "commitizen": {

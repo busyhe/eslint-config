@@ -5,7 +5,7 @@ JavaScript Style - ESLint Shareable Config
 ## Install
 
 ```bash
-npm install @busyhe/eslint-config-preset
+npm install @busyhe/eslint-config
 ```
 
 ## Usage
@@ -13,14 +13,14 @@ npm install @busyhe/eslint-config-preset
 If you want to set up the config manually, run the following command:
 
 ```bash
-npm install --save-dev @busyhe/eslint-config-preset eslint-plugin-promise eslint-plugin-import eslint-plugin-n
+npm install --save-dev @busyhe/eslint-config eslint-plugin-promise eslint-plugin-import eslint-plugin-n
 ```
 
 Then, add this to your .eslintrc file:
 
 ```json
 {
-  "extends": "@busyhe/eslint-config-preset"
+  "extends": "@busyhe"
 }
 ```
 
