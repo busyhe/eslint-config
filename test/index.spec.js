@@ -4,10 +4,13 @@
  * Email: busyhe@qq.com
  * Description:
  */
-const config = require('../index')
+const config = require('../src')
 
 test('test basic properties of config', () => {
     expect(isObject(config.parserOptions)).toBeTruthy()
+    expect(isObject(config.env)).toBeTruthy()
+    expect(isObject(config.globals)).toBeTruthy()
+    expect(isObject(config.rules)).toBeTruthy()
 })
 
 function isObject (obj) {

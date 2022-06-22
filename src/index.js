@@ -4,4 +4,5 @@
  * Email: busyhe@qq.com
  * Description:
  */
+/*! eslint-config. MIT License. busyhe <busyhe@qq.com> */
 module.exports = require('./.eslintrc.json')

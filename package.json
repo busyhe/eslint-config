@@ -6,11 +6,12 @@
     "scripts": {
         "lint": "eslint .",
         "test": "jest",
+        "test:coverage": "jest --coverage",
         "postinstall": "husky install",
         "prepack": "pinst --disable",
         "postpack": "pinst --enable"
     },
-    "main": "index.js",
+    "main": "src/index.js",
     "private": false,
     "keywords": [
         "busyhe",
@@ -30,6 +31,7 @@
         "eslint-plugin-n": "^15.2.3",
         "eslint-plugin-promise": "^6.0.0",
         "husky": "^8.0.1",
+        "jest": "^28.1.1",
         "lint-staged": "^13.0.2",
         "pinst": "^3.0.0",
         "semantic-release": "^19.0.3"
