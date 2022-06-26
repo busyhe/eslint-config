@@ -5,4 +5,4 @@
  * Description:
  */
 /*! eslint-config. MIT License. busyhe <busyhe@qq.com> */
-module.exports = require('./.eslintrc.json')
+module.exports = require('./.eslintrc.json');
