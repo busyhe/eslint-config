@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/busyhe/eslint-config/compare/v1.0.1...v1.0.2) (2022-06-26)
+
+
+### Bug Fixes
+
+* current project js semi error ([1c5684d](https://github.com/busyhe/eslint-config/commit/1c5684d778bc7a2506c323b216bb382b48c77035))
+
 ## [1.0.1](https://github.com/busyhe/eslint-config/compare/v1.0.0...v1.0.1) (2022-06-26)
 
 
