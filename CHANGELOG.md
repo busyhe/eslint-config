@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/busyhe/eslint-config/compare/v1.0.0...v1.0.1) (2022-06-26)
+
+
+### Bug Fixes
+
+* semi is never ([e1ef613](https://github.com/busyhe/eslint-config/commit/e1ef6134866aabaf18f6e0197bce8a153b6752ae))
+
 # 1.0.0 (2022-06-22)
 
 

@@ -2,7 +2,7 @@
     "name": "@busyhe/eslint-config",
     "description": "JavaScript Style - ESLint Shareable Config",
     "author": "busyhe <busyhe@qq.com>",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "scripts": {
         "lint": "eslint .",
         "test": "jest",
