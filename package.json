@@ -12,6 +12,9 @@
         "postpack": "pinst --enable"
     },
     "main": "src/index.js",
+    "files": [
+        "src"
+    ],
     "private": false,
     "publishConfig": {
         "access": "public",
