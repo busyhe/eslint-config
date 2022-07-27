@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/busyhe/eslint-config/compare/v1.0.2...v1.0.3) (2022-07-27)
+
+
+### Bug Fixes
+
+* requires indentation for values of ternary expressions ([2c0a4dc](https://github.com/busyhe/eslint-config/commit/2c0a4dc9ecb7a13ecb24e34bc43121b987743d11))
+
 ## [1.0.2](https://github.com/busyhe/eslint-config/compare/v1.0.1...v1.0.2) (2022-06-26)
 
 
