@@ -177,8 +177,7 @@
                     "JSXText",
                     "JSXEmptyExpression",
                     "JSXSpreadChild"
-                ],
-                "offsetTernaryExpressions": true
+                ]
             }
         ],
         "key-spacing": [
